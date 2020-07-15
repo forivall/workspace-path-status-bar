@@ -5,7 +5,7 @@
   "version": "0.0.0",
   "publisher": "forivall",
   "engines": {
-    "vscode": "^0.10.1"
+    "vscode": "^1.14.0"
   },
   "categories": [
     "Other"
@@ -47,7 +47,7 @@
   },
   "devDependencies": {
     "@types/node": "^12.12.48",
-    "@types/vscode": "^1.47.0",
+    "@types/vscode": "^1.14.0",
     "glob": "^7.1.6",
     "mocha": "^8.0.1",
     "vscode-test": "^1.4.0"
