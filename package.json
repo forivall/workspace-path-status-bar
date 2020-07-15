@@ -2,7 +2,7 @@
   "name": "workspace-path-status-bar",
   "displayName": "Workspace Path Status",
   "description": "Add status bar entry to show the workspace path.",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "publisher": "forivall",
   "engines": {
     "vscode": "^1.14.0"
