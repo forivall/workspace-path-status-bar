@@ -1,0 +1,51 @@
+{
+  "name": "workspace-path-status-bar",
+  "displayName": "Workspace Path Status",
+  "description": "Add status bar entry to show the workspace path.",
+  "version": "0.0.0",
+  "publisher": "forivall",
+  "engines": {
+    "vscode": "^0.10.1"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "icon": "media/icon.png",
+  "galleryBanner": {
+    "theme": "dark",
+    "color": "#614051"
+  },
+  "main": "./extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.workspacePathStatusBarClicked",
+        "title": "workspacePathStatusBarClicked"
+      }
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "workspace-path-status-bar configuration",
+      "properties": {
+        "workspace-path-status-bar.enable": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable/Disable workspace-path-status-bar"
+        }
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/forivall/workspace-path-status-bar"
+  },
+  "dependencies": {
+    "copy-paste": "^1.2.0"
+  },
+  "devDependencies": {
+    "vscode": "0.10.x"
+  }
+}
