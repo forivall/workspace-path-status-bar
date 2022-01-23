@@ -48,7 +48,7 @@
   "devDependencies": {
     "@types/node": "^12.12.48",
     "@types/vscode": "^1.14.0",
-    "glob": "^7.1.6",
+    "glob": "^7.2.0",
     "mocha": "^8.0.1",
     "vscode-test": "^1.4.0"
   }
