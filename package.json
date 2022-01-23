@@ -49,7 +49,7 @@
     "@types/node": "^12.12.48",
     "@types/vscode": "^1.14.0",
     "glob": "^7.1.6",
-    "mocha": "^8.0.1",
+    "mocha": "^8.4.0",
     "vscode-test": "^1.4.0"
   }
 }
