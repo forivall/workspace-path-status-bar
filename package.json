@@ -43,7 +43,7 @@
     "url": "https://github.com/forivall/workspace-path-status-bar"
   },
   "dependencies": {
-    "copy-paste": "^1.2.0"
+    "copy-paste": "^1.5.3"
   },
   "devDependencies": {
     "@types/node": "^12.12.48",
